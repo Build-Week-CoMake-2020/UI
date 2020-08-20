@@ -37,8 +37,22 @@ header .title {
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   border-top: 2px solid #3D4449;
-   border-bottom: 2px solid#3D4449;
+   border-top: solid #3D4449  2px ;
+   border-bottom: solid #3D4449  2px;
    margin: 2%;
 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+a {
+ font-size: 1.2rem;
+ padding: 1%;
+ border: solid black 2px;
+ border-radius: 25px;
 }
