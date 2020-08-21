@@ -28,8 +28,17 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2{
+    font-size: 2rem;
+    margin: 0 auto;
+
+}
+
 p {
     font-size: 1.5rem;
+}
+b {
+    font-size: 1.2rem;
 }
 
 header .title {
@@ -55,4 +64,34 @@ a {
  padding: 1%;
  border: solid black 2px;
  border-radius: 25px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 25%;
+
+}
+
+input[type=text], input[type=password] {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    
+    
+}
+
+button {
+    background-color: #3D4449;
+    height: 35px;
+    color: white;
+
+
 }
