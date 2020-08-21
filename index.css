@@ -22,10 +22,14 @@ vertical-align: baseline;
 
 body {
     font-size: 62.5%;
+    background-image: url(file:///Users/austinlittlefield/Downloads/pexels-leah-kelley-325521.jpg);
+    background-size: cover;
+    color: white;
 }
 
 h1 {
     font-size: 2.5rem;
+    
 }
 
 h2{
@@ -46,9 +50,9 @@ header .title {
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   border-top: solid #3D4449  2px ;
-   border-bottom: solid #3D4449  2px;
-   margin: 15% 20% 2% 20%;
+   border-top: solid White  2px ;
+   border-bottom: solid White   2px;
+   margin: 20% 20% 2% 20%;
 
 }
 
@@ -57,13 +61,17 @@ nav {
     justify-content: center;
     flex-direction: row;
 
+
 }
 
 a {
  font-size: 1.2rem;
  padding: 1%;
- border: solid black 2px;
+ border: solid white 2px;
  border-radius: 25px;
+ text-decoration: none;
+ color: white;
+
 }
 
 
@@ -72,7 +80,7 @@ a {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 25%;
 
 }
