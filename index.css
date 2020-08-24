@@ -114,7 +114,34 @@ footer {
     margin: 1%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 62.5%;
+        background-image: url(file:///Users/austinlittlefield/Downloads/pexels-leah-kelley-325521.jpg);
+        background-size: cover;
+        color: white;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        
+    }
+    
+    h2{
+        font-size: 2rem;
+        margin: 0 auto;
+    
+    }
+    
+    p {
+        font-size: 1.5rem;
+        padding: 1%;
+        margin: 1%;
+    }
+    b {
+        font-size: 1.2rem;
+    }
+
     header .title {
         display: flex;
        justify-content: center;
@@ -122,17 +149,29 @@ footer {
        flex-direction: column;
        border-top: solid White  2px ;
        border-bottom: solid White   2px;
-       margin: 20% 20% 2% 20%;
+       margin: 25% 2% 2% 2%;
     
     }
     
     nav {
         display: flex;
         justify-content: center;
-        flex-direction: row;
-    
-    
-    
-
+        flex-direction: column;
+        text-align: center;
+        width: 33%;
+        margin: 0 auto;
 }
+
+a {
+    font-size: 1.2rem;
+    padding: 1%;
+    border: solid white 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+   
+   }
+
+
+
 }
