@@ -22,6 +22,50 @@ vertical-align: baseline;
 
 
 
+body {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0 auto;
+
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 1%;
+    margin: 1%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    border: 2px solid black;
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 65%;
+    height: 100%;
+    position: fixed;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+
 
 
 
