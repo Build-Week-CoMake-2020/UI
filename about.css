@@ -37,6 +37,10 @@ h2{
 
 }
 
+h3{
+    font-size: 1.75rem; 
+}
+
 p {
     font-size: 1.5rem;
     padding: 1%;
@@ -67,7 +71,22 @@ p {
 
 img{
     border: 2px solid black;
+    background-size: cover;
+    width: 100%;
     
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.group {
+    width: 45%;
+    height: auto;
 }
 
 
