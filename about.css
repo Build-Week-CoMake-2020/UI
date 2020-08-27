@@ -56,16 +56,17 @@ p {
 .split{
     display: flex;
     flex-direction: column;
-    right: 0;
+    float: right;
     width: 65%;
     height: 100%;
-    position: fixed;
+    position: relative;
     border: 2px solid black;
     text-align: center;
 
 }
 
 img{
+    border: 2px solid black;
     
 }
 
