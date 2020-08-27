@@ -24,6 +24,8 @@ vertical-align: baseline;
 
 body {
     font-size: 62.5%;
+    color:#3D4449;
+
 }
 
 h1 {
@@ -46,9 +48,25 @@ p {
     padding: 1%;
     margin: 1%;
 }
+nav{
+    font-size: 1rem;
+    text-decoration: none;
+}
+a {
+    padding: 1%;
+    border-radius: 25px;
+    text-decoration: none;
+    color:#3D4449;
+   }
 
 .header{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
     margin: 20% 0% 0% 0%;
+    width: 75%;
+
+
 }
 
 .title{
@@ -59,7 +77,8 @@ p {
     width: 35%;
     height: 100%;
     position: fixed;
-    border: 2px solid black;
+    background-image: url(file:///Users/austinlittlefield/Downloads/pexels-dhyamis-kleber-624929.jpg);
+    background-size: cover;
 }
 
 .split{
@@ -69,7 +88,6 @@ p {
     width: 65%;
     height: 100%;
     position: relative;
-    border: 2px solid black;
     text-align: center;
 
 }
