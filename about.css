@@ -119,7 +119,92 @@ a {
 }
 
 
-
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 62.5%;
+        color:#3D4449;
+    
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        
+    }
+    
+    h2{
+        font-size: 2rem;
+        margin: 0 auto;
+    
+    }
+    
+    h3{
+        font-size: 1.75rem; 
+    }
+    
+    p {
+        font-size: 1.5rem;
+        padding: 1%;
+        margin: 1%;
+    }
+    nav{
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    a {
+        padding: 1%;
+        border-radius: 25px;
+        text-decoration: none;
+        color:#3D4449;
+       }
+    
+       img{
+        border: 2px solid black;
+        background-size: cover;
+        width: 100%;
+        
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10% 0% 0% 0%;
+        width: 75%;
+        height: auto;
+    
+    
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        position: static;
+        background-image: url(file:///Users/austinlittlefield/Downloads/pexels-dhyamis-kleber-624929.jpg);
+        background-size: cover;
+    }
+    
+    .split{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: static;
+    
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    
+    .group {
+        width: 100%;
+        height: auto;
+    }
+}
 
 
 
