@@ -69,11 +69,19 @@ nav {
 a {
  font-size: 1.2rem;
  padding: 1%;
- border: solid white 2px;
- border-radius: 25px;
+ border: solid white 1px;
  text-decoration: none;
  color: white;
+ width: 10%;
+ text-align: center;
 
+}
+
+#rounded-corner{
+    border-radius: 20px 0px 0px 20px;
+}
+#rounded-corner-2{
+    border-radius: 0px 20px 20px 0px;
 }
 
 
