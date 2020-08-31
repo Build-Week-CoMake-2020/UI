@@ -239,6 +239,7 @@ footer {
         background-image: url(file:///Users/austinlittlefield/Downloads/pexels-leah-kelley-325521.jpg);
         background-size: cover;
         color: white;
+        height: 100%;
     }
     
     h1 {
@@ -298,6 +299,11 @@ footer {
    #rounded-corner-2{
        border-radius: 0px 0px 10px 10px;
    }
-
+   img{
+       height: 100%;
+   }
+input{
+    font-size: .7rem;
+}
 
 }
