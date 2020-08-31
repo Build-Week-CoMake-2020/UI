@@ -27,6 +27,7 @@ body {
     background-size: cover;
     color: white;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -133,6 +134,7 @@ footer {
         background-size: cover;
         color: white;
         font-family: "Source Sans Pro", Helvetica, sans-serif;
+        background-repeat: no-repeat;
     }
     
     h1 {
@@ -240,6 +242,7 @@ footer {
         background-size: cover;
         color: white;
         height: 100%;
+        background-repeat: no-repeat;
     }
     
     h1 {
